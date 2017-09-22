@@ -1,8 +1,18 @@
-Make Library
-============
+TIOBench Docker
+===============
 
-Aside from including
-[base-repo](http://github.com/deweysasser/base-repo), this provides an
-includable set of make recipes for use in other projects.
+A docker image for [TIOBench](https://sourceforge.net/projects/tiobench/).
 
+Ensure the filesystem you want to benchmark is mapped in the container
+to /benchmark, then run:
+
+```
+  docker --rm deweysasser/tiobench
+```
+
+You can also give the image `tiobench` command line arguments
+
+
+Tools
+=====
 See [ToolUse.md] for more information.
